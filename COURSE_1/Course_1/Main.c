@@ -1,7 +1,7 @@
 #include "src/Functions/functions_1.h"
 
 int main() {
-	array_definition();
+	_1D_array_definition();
 
 	return 0;
 }
