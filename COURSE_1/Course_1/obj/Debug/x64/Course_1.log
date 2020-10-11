@@ -1,3 +1,1 @@
-﻿  functions_1.c
-D:\Tomas\MOOC\Aprendiendo_C\Course_2\Exercises\C_exercises\COURSE_1\Course_1\src\Functions\functions_1.c(101,10): warning C4047: 'return': 'int' differs in levels of indirection from 'int **'
-D:\Tomas\MOOC\Aprendiendo_C\Course_2\Exercises\C_exercises\COURSE_1\Course_1\src\Functions\functions_1.c(96): error C4700: uninitialized local variable 'C' used
+﻿

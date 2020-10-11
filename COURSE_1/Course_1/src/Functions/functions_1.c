@@ -75,28 +75,27 @@ int min_array(int a[], int n) {
 	}
 }
 
-int matrix_multiplication(int nA[], int nB[], int **A, int **B) {
-	// A y B son las matrices de entrada, mientras que na y nb son vectores donde se indica la dimension
-	// de cada uno de las matrices, siendo el primer numero las filas y el segundo el numero de columnas.
-	if (nA[1] != nB[0]) {
-		printf("No se puede realizar la multiplicacion de las matrices.");
-		return 0;
-	}
-	// Se declara la matriz resultado de dimensiones filasA x columnasB
-	int **C;
-
-	// Se realiza las operaciones correspondientes en cada una de las columnas
-	for (int i = 0; i < nA[0]; i++) {
-
-		for (int j = 0; j < nB[1]; j++) {
-
-			// Se hace la multiplicacion y suma a lo largo de toda la columna
-			for (int index = 0; index < nA[1]; index++) {
-
-				C[i][j] += A[i][index] * B[index][j];
-
-			}
-		}
-	}
-	return C;
-}
+//int matrix_multiplication(int nA[], int nB[], int **A, int **B) {
+//	// A y B son las matrices de entrada, mientras que na y nb son vectores donde se indica la dimension
+//	// de cada uno de las matrices, siendo el primer numero las filas y el segundo el numero de columnas.
+//	if (nA[1] != nB[0]) {
+//		printf("No se puede realizar la multiplicacion de las matrices.");
+//		return 0;
+//	}
+//	// Se declara la matriz resultado de dimensiones filasA x columnasB
+//	int **C;
+//
+//	// Se realiza las operaciones correspondientes en cada una de las columnas
+//	for (int i = 0; i < nA[0]; i++) {
+//
+//		for (int j = 0; j < nB[1]; j++) {
+//
+//			// Se hace la multiplicacion y suma a lo largo de toda la columna
+//			for (int index = 0; index < nA[1]; index++) {
+//
+//				C[i][j] += A[i][index] * B[index][j];
+//			}
+//		}
+//	}
+//	return C;
+//}
